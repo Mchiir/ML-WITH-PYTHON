@@ -1,3 +1,6 @@
 [submodule "Django"]
 	path = Django
 	url = https://github.com/Mchiir/Django-basics.git
+[submodule "FarmManagementSystem"]
+	path = FarmManagementSystem
+	url = https://github.com/Mchiir/FarmManagementSystem.git
