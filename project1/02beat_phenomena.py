@@ -5,7 +5,7 @@ import matplotlib.pyplot as plt
 A = 1
 f1 = 260  # Hz
 f2 = 252  # Hz
-t = np.linspace(0, 1, 5000)  # 1 second, high resolution
+t = np.linspace(0, 3, 5000)  # 1 second, high resolution
 
 # Beat signal
 y = A * (np.sin(2 * np.pi * f1 * t) + np.sin(2 * np.pi * f2 * t))
