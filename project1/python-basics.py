@@ -181,3 +181,36 @@ def get_user_info(**user_info): # returns a dictionary
     return f"{user_info['names']} is {user_info['age']} years old and lives in {user_info['city']}"
 
 print(get_user_info(names="Kamali", age=20, city="kigali")) # arbitrary keyword arguments
+
+"""
+# Quiz/CAT
+
+print(sum([i > 2 for i in [1,2,3,4]]))
+print([i**2 for i in range(6) if i % 2])
+
+for i in range(3):
+    x=i
+def test():
+    print(x)
+test() # 2
+
+fruits = ("apple", "banana", "grape", "mango", "watermelon", "pear", "cherry")
+first, *middle, last = fruits
+print(first, middle, last)
+
+print([False]*3 == [0]*3)
+
+def func(a=[]):
+    a.append(len(a))
+    return a
+
+print(func())
+print(func())
+print(func())
+
+
+def f(n):
+    return n if n<=1 else f(n-1)+f(n-2)
+
+print(f(6))
+"""
