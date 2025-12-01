@@ -68,7 +68,7 @@ plt.scatter(t_zero, 0, color='red', label="Y2 first zero crossing")
 plt.title("Effect of Phase Shift on Two Sine Waves")
 plt.xlabel("Time (seconds)")
 plt.ylabel("Amplitude")
-plt.legend()
+# plt.legend()
 plt.grid(True)
 
 plt.show()
