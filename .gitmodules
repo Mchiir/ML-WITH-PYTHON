@@ -4,3 +4,6 @@
 [submodule "FarmManagementSystem"]
 	path = FarmManagementSystem
 	url = https://github.com/Mchiir/FarmManagementSystem.git
+[submodule "student_model"]
+	path = student_model
+	url = https://github.com/Mchiir/Student-Performance-ML-API.git
