@@ -63,6 +63,36 @@
             >
               Pivot Table
             </a>
+            <a
+            class="list-group-item list-group-item-action"
+            href="#sunburst-chart"
+          >
+            Sales Sunburst Chart
+          </a>
+          <a
+          class="list-group-item list-group-item-action"
+          href="#treemap-chart"
+        >
+          Sales Treemap
+        </a>
+        <a
+          class="list-group-item list-group-item-action"
+          href="#manufacturer-bar-chart"
+        >
+          Manufacturer Bar Chart
+        </a>
+        <a
+          class="list-group-item list-group-item-action"
+          href="#icicle-chart"
+        >
+          Sales Icicle Chart
+        </a>
+        <a
+          class="list-group-item list-group-item-action"
+          href="#world-sales-map"
+        >
+          Global Sales Map
+        </a>
           </div>
         </div>
 
@@ -106,6 +136,51 @@
             <div id="pivot-table" class="card shadow mb-5">
               <div class="card-header bg-warning text-dark">Pivot Table</div>
               <div class="card-body">{{ pivot_table|safe }}</div>
+            </div>
+
+            <div id="pivot-table" class="card shadow mb-5">
+              <div class="card-header bg-warning text-dark">Pivot Table</div>
+              <div class="card-body">{{ pivot_table|safe }}</div>
+            </div>
+            <div id="sunburst-chart" class="card shadow mb-5">
+              <div class="card-header bg-primary text-white">
+                Sales Distribution Sunburst
+              </div>
+              <div class="card-body">
+                {{ sunburst_chart|safe }}
+              </div>
+            </div>
+            <div id="treemap-chart" class="card shadow mb-5">
+              <div class="card-header bg-secondary text-white">
+                Sales Distribution Treemap
+              </div>
+              <div class="card-body">
+                {{ treemap_chart|safe }}
+              </div>
+            </div>
+            <div id="manufacturer-bar-chart" class="card shadow mb-5">
+              <div class="card-header bg-primary text-white">
+                Manufacturer Distribution (Bar Chart)
+              </div>
+              <div class="card-body">
+                {{ manufacturer_bar_chart|safe }}
+              </div>
+            </div>
+            <div id="icicle-chart" class="card shadow mb-5">
+              <div class="card-header bg-dark text-white">
+                Sales Distribution Icicle
+              </div>
+              <div class="card-body">
+                {{ icicle_chart|safe }}
+              </div>
+            </div>
+            <div id="world-sales-map" class="card shadow mb-5">
+              <div class="card-header bg-success text-white">
+                Global Sales Income Map
+              </div>
+              <div class="card-body">
+                {{ world_sales_map|safe }}
+              </div>
             </div>
           </div>
         </div>
