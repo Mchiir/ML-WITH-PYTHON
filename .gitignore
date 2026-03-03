@@ -1,4 +1,5 @@
 .venv/
 
 /python-prompt/
-.ipynb_checkpoints
+.ipynb_checkpoints/
+*.sqlite3
